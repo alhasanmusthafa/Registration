@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Assignment</title>
+	<style>
+		footer {
+			text-align: right;
+		}
+
+		#number-one {
+			background-color: cyan;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="php.php" method="post">
+		<center>
+			<h2>Registrasi</h2>
+		</center>
+		<fieldset>
+			<legend>Data Login</legend>
+			<table border="0" cellspacing="0" cellpadding="5" id="number-one" width="100%">
+				<tr>
+					<td><label>Username</label></td>
+					<td><input type="text" name="username" placeholder="Username..."></td>
+				</tr>
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="text" name="username" placeholder="Your email..."></td>
+				</tr>
+				<tr>
+					<td><label>Password</label></td>
+					<td><input type="Password" name="Password" placeholder="Password..."></td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Data Pribadi</legend>
+			<table border="0" cellspacing="0" cellpadding="5" id="number-one" width="100%">
+				<tr>
+					<td><label>Nama</label></td>
+					<td><input type="text" name="name" placeholder="Nama Lengkap..."></td>
+				</tr>
+				<tr>
+					<td><label>Jenis Kelamin</label></td>
+					<td><input type="radio" name="gender" value="male" />Laki-laki
+						<input type="radio" name="gender" value="female" />Perempuan</td>
+				</tr>
+				<tr>
+					<td><label>Hobi</label></td>
+					<td><input type="checkbox" name="Fotografi" />Fotografi
+						<input type="checkbox" name="Travelling" />Travelling
+						<input type="checkbox" name="Nonton" />Nonton
+						<input type="text" name="Hobi lain" placeholder="Hobi lain..."></td>
+				</tr>
+				<tr>
+					<td><label>Agama</label></td>
+					<td><select name="Agama">
+							<option>--pilih--</option>
+							<option>Islam</option>
+							<option>Katolik</option>
+							<option>Kristen</option>
+							<option>buddha</option>
+							<option>Konghuchu</option>
+							<option>Hindu</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td><label>Tanggal Lahir</label></td>
+					<td><input type="date" name="Tanggal Lahir"></td>
+				</tr>
+				<tr>
+					<td><label>Biografi</label></td>
+					<td><textarea rows="2" cols="20"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>Foto</label></td>
+					<td><input type="file" name="file" id="file" /></td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<table border="0" cellspacing="0" cellpadding="5" id="number-one" width="100%">
+				<tr>
+					<td>
+						<button>Daftar</button>
+						<button>Hapus</button>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+
+</html>
